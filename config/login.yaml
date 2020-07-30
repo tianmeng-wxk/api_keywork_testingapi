@@ -1,0 +1,46 @@
+-
+  apiname: auth
+  request:
+    methon: post
+    params:
+      username:
+      password:
+    headers:
+  validata:
+    status: 200
+    msg: "success"
+  extract: {"token_name": token}
+-
+  apiname: login
+  request:
+    methon: post
+    params:
+      username: Will
+      password: 123456
+    headers: {"token": "${{token_name}}"}
+  validata:
+    status: 200
+    msg: "恭喜您，登录成功"
+
+-
+  apiname: login
+  request:
+    methon: post
+    params:
+      username: wxk
+      password: 123456
+    headers: {"token": "${{token_name}}"}
+  validata:
+    status: 200
+    msg: "恭喜您，登录成功"
+-
+  apiname: logout
+  request:
+    methon: post
+    params:
+      username:
+      password:
+    headers: {"token": "${{token_name}}"}
+  validata:
+    status: 200
+    msg: '用户已退出登录'

@@ -1,0 +1,10 @@
+2020-07-30 22:59:49 key_work.py INFO 发送第1个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/auth params:{'username': None, 'password': None}
+2020-07-30 22:59:49 key_work.py INFO 发送第2个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/login params:{'username': 'Will', 'password': 123456}
+2020-07-30 22:59:49 key_work.py INFO 获取到的token:a421131eacd742db9c7e4c33f0f9b588
+2020-07-30 22:59:49 key_work.py INFO 添加token后的headers：{'Content-Type': 'application/x-www-form-urlencoded', 'token': 'a421131eacd742db9c7e4c33f0f9b588'}
+2020-07-30 22:59:49 key_work.py INFO 发送第3个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/login params:{'username': 'wxk', 'password': 123456}
+2020-07-30 22:59:49 key_work.py INFO 获取到的token:a421131eacd742db9c7e4c33f0f9b588
+2020-07-30 22:59:49 key_work.py INFO 添加token后的headers：{'Content-Type': 'application/x-www-form-urlencoded', 'token': 'a421131eacd742db9c7e4c33f0f9b588'}
+2020-07-30 22:59:49 key_work.py INFO 发送第4个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/logout params:{'username': None, 'password': None}
+2020-07-30 22:59:49 key_work.py INFO 获取到的token:a421131eacd742db9c7e4c33f0f9b588
+2020-07-30 22:59:49 key_work.py INFO 添加token后的headers：{'Content-Type': 'application/x-www-form-urlencoded', 'token': 'a421131eacd742db9c7e4c33f0f9b588'}

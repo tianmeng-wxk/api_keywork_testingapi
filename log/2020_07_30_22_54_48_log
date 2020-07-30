@@ -1,0 +1,4 @@
+2020-07-30 22:54:48 key_work.py INFO 发送第1个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/auth params:{'username': None, 'password': None}
+2020-07-30 22:54:48 key_work.py INFO 发送第2个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/login params:{'username': 'Will', 'password': 123456}
+2020-07-30 22:54:48 key_work.py INFO 发送第3个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/login params:{'username': 'wxk', 'password': 123456}
+2020-07-30 22:54:48 key_work.py INFO 发送第4个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/logout params:{'username': None, 'password': None}

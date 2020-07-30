@@ -1,0 +1,5 @@
+test_environment:
+  url: http://www.testingedu.com.cn:8081/inter/HTTP/
+
+dev_environment:
+  url: http://www.testingedu.com.cn:8081/inter/HTTP/
