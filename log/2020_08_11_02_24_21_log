@@ -1,0 +1,14 @@
+2020-08-11 02:24:21 key_work.py INFO 发送第1个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/auth params:{'username': None, 'password': None}
+2020-08-11 02:24:21 testcase.py INFO 返回的数据：{'status': 200, 'msg': 'success', 'token': 'e3fd82c86f694fb7ac48c1e904e7c5d8'}
+2020-08-11 02:24:21 testcase.py INFO yaml文件保存更新的token内容：{'token_name': 'e3fd82c86f694fb7ac48c1e904e7c5d8'}
+2020-08-11 02:24:21 key_work.py INFO 发送第2个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/login params:{'username': 'Will', 'password': 123456}
+2020-08-11 02:24:21 key_work.py INFO 获取到的token:e3fd82c86f694fb7ac48c1e904e7c5d8
+2020-08-11 02:24:21 key_work.py INFO headers：{'Content-Type': 'application/x-www-form-urlencoded', 'token': 'e3fd82c86f694fb7ac48c1e904e7c5d8'}
+2020-08-11 02:24:21 testcase.py INFO 返回的数据：{'status': 200, 'msg': '恭喜您，登录成功', 'userid': '1'}
+2020-08-11 02:24:21 key_work.py INFO 发送第3个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/login params:{'username': 'wxk', 'password': 123456}
+2020-08-11 02:24:21 key_work.py INFO 获取到的token:e3fd82c86f694fb7ac48c1e904e7c5d8
+2020-08-11 02:24:21 key_work.py INFO headers：{'Content-Type': 'application/x-www-form-urlencoded', 'token': 'e3fd82c86f694fb7ac48c1e904e7c5d8'}
+2020-08-11 02:24:21 testcase.py INFO 返回的数据：{'status': 401, 'msg': '用户名密码错误'}
+2020-08-11 02:24:21 key_work.py INFO 发送第4个请求 url:http://www.testingedu.com.cn:8081/inter/HTTP/logout params:{'username': None, 'password': None}
+2020-08-11 02:24:21 key_work.py INFO 获取到的token:e3fd82c86f694fb7ac48c1e904e7c5d8
+2020-08-11 02:24:21 key_work.py INFO headers：{'Content-Type': 'application/x-www-form-urlencoded', 'token': 'e3fd82c86f694fb7ac48c1e904e7c5d8'}

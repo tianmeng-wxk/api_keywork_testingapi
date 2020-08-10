@@ -36,7 +36,7 @@ class Httpclien():
 
     def detelet(self,data):
         try:
-            r = requests.post(url=self.url, data=data, headers=self.headers)
+            r = requests.delete(url=self.url, data=data, headers=self.headers)
             return r.json()
         except BaseException as e:
             print("接口发生未知错误", e)
